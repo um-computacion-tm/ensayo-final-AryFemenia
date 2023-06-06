@@ -1,16 +1,15 @@
-'''
-dispositivo_1
+from dispositivo import Dispositivo
 
-self.database
-
-1 dicc nombre del paramerto
-'''
 class Database:
     def __init__(self):
         self.database = []
-        self.database_template = {"dispositivos": [
-            dispositivo_1,
-            dispositivo_2,
-            dispositivo_3,
-            dispositivo_4,
-        ]}
+    
+    def delete_by_id(self, id):
+
+
+    def add_dispositivo(self, dispositivo):
+
+
+    
+    def add_diccionario(self, diccionario):
+
