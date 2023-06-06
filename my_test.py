@@ -1,22 +1,32 @@
-#clase > funcion(parametros) o metodo(parametros)
-#objeto
-#constructor
-#dicc = .get
-#lista = []
+#clase >es> un molde para crear objetos >tiene> variables y funcion(parametros)/metodo(parametros)
+#metodo >es> una funcion que pertenece a una clase
+#objeto >es> una instancia de una clase
+#constructor >es> una funcion que se ejecuta cuando se crea un objeto
+
+#variables >es> un espacio en memoria que guarda un valor
+
+#dicc = {}
+#dicc["clave"] = "valor"
+#dicc["clave"] = "valor2"
+
+#ista = []
+#lista.append("hola")
+#lista.append("chau")
+
+
 import unittest
 
 from dispositivo import Dispositivo
 from database import Database
 
-
 class MyTest(unittest.TestCase):
 
-    def setUp(self):#se agrega a cada metodo
-        dispositivo_1 = {
-            "id": 1,
-            "nombre": "teclado",
-            "marca": "genius",
-        }
+    def setUp(self):             #se agrega a cada metodo
+        dispositivo_1 = {        #diccionario dispositivo_1
+            "id": 1,             #clave:valor
+            "nombre": "teclado", #clave:valor
+            "marca": "genius",   #clave:valor
+        }                        #diccionario dispositivo_1
         dispositivo_2 = {
             "id": 2,
             "nombre": "mouse",

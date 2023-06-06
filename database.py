@@ -7,4 +7,10 @@ self.database
 '''
 class Database:
     def __init__(self):
-        self. 
+        self.database = []
+        self.database_template = {"dispositivos": [
+            dispositivo_1,
+            dispositivo_2,
+            dispositivo_3,
+            dispositivo_4,
+        ]}
